@@ -1,0 +1,135 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    margin-top: 150px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-container {
+    margin: auto;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 20px
+}
+
+
+.heroImg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  ;
+}
+
+.summary-container {
+    margin-top: -24px;
+    background-color: #FFF;
+    padding: 40px 40px 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.content-container {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #000;
+    font-size: 900;
+}
+
+.orderList-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.orderPlan {
+    display: flex;
+    align-items: center;
+}
+
+.orderType {
+    margin-left: 10px;
+}
+
+.orderType h4 {
+    padding: 0px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 900;
+}
+
+.price {
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.changeOrder {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.changeOrder:hover {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    padding: 12px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.pTPButton {
+    color: #FFF;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    box-shadow:
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pTPButton:hover {
+    background-color: hsl(228, 45%, 44%);
+}
+
+.cOButton {
+    background-color: #FFF;
+    padding: 0px;
+    margin: 30px 0 20px;
+}
+
+.cOButton:hover {
+    color: #000;
+}
+
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
